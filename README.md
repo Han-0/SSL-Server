@@ -8,7 +8,7 @@ The server program is limited to a single client connection at one time.
 
 NOTE:
 These programs require the creation of a keystore/truststore in compliance with JSSE (Java Secure Socket Extension).
-For information regarding creating these refer to the JSSE Reference Guide (link below).
+For information regarding creating these, refer to the JSSE Reference Guide (link below).
 
 https://docs.oracle.com/javase/9/security/java-secure-socket-extension-jsse-reference-guide.htm#JSSEC-GUID-3D26386B-BC7A-41BB-AC70-80E6CD147D6F
 
