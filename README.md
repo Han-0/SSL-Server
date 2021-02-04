@@ -14,12 +14,18 @@ https://docs.oracle.com/javase/9/security/java-secure-socket-extension-jsse-refe
 
 Usage: 
 1. Both programs contain lines similar to the following (in the "server" program you will see "keyStore" instead of "trustStore"): 
-
+```
    System.setProperty("javax.net.ssl.trustStore", "...");
    
    System.setProperty("javax.net.ssl.trustStorePassword", "...");
-   
+```   
    Replace '...' with the respective name and password of your trusted cert entry.
 
 2. First compile and execute server.java and follow the terminal prompts.
+```
+   java server.java
+```
 3. Then compile and execute client.java and follow the terminal prompts.
+```
+   java client.java
+```
